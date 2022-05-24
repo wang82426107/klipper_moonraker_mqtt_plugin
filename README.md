@@ -120,7 +120,7 @@
 8. 手动启动脚本,我们只需要在SSH的命令使用如下命令就可以了.
 
 	``` sh
-    Python ~/klipper_moonraker_mqtt_plugin/scripts/mqtt.py
+    python ~/klipper_moonraker_mqtt_plugin/scripts/mqtt.py
     ```
 
 
@@ -144,7 +144,7 @@
     # bits.
     #
     # By default this script does nothing.
-    Python ~/klipper_moonraker_mqtt_plugin/scripts/mqtt.py
+    python ~/klipper_moonraker_mqtt_plugin/scripts/mqtt.py
     exit 0
     ```
 11. 然后 `Ctrl + O` 回车保存, `Ctrl + X` 退出编辑.
