@@ -26,8 +26,8 @@ def on_message(client, userdata, message):
 client= paho.Client(client_id)
 client.on_message=on_message
 client.username_pw_set(username, password)
-if port != None :
-    client.connect(broker, port)
+if int(port) > 0 :
+    client.connect(broker, int(port))
 else :
     client.connect(broker)
 client.publish(topic + "/status", "")
