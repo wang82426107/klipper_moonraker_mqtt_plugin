@@ -26,11 +26,10 @@ def on_message(client, userdata, message):
 client= paho.Client(client_id)
 client.on_message=on_message
 client.username_pw_set(username, password)
-if (port != None) {
+if port != None :
     client.connect(broker, port)
-} else {
+else :
     client.connect(broker)
-}
 client.publish(topic + "/status", "")
 client.publish(topic + "/control/run_gcode", "")
 client.subscribe(topic + "/control/run_gcode")
