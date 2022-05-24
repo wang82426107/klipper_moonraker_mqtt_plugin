@@ -65,6 +65,7 @@
 首先你必须安装了 MainsailOS 和 Fluidd,可以方便后期的管理
 * [MainsailOS](https://github.com/meteyou/mainsail)
 * [Fluidd](https://github.com/cadriel/fluidd)
+* 上位机(树莓派或者香橙派)需要python3的环境❗️❗️❗️❗️
 
 ### 导入
 
