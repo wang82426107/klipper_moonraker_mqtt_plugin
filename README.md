@@ -102,12 +102,12 @@
     ```
 
 6. 添加完成上面信息之后,保存并且重启Klipper.
-7. 然后在配置页面`Klipper_Moonraker_mqtt.cfg`中,设置MQTT的相关信息.Port(端口)是可选的.
+7. 然后在配置页面`Klipper_Moonraker_mqtt.cfg`中,设置MQTT的相关信息.Port(端口)是可选的,  <= 0 则不生效.
 
 	``` Python
     [Broker]
     IP = x.x.x.x
-    Port = 1883 # 可选
+    Port = 1883 # <= 0 则不生效
     #Username = username
     #Password = password
 
@@ -120,7 +120,7 @@
 8. 手动启动脚本,我们只需要在SSH的命令使用如下命令就可以了.
 
 	``` sh
-    python ~/klipper_moonraker_mqtt_plugin/scripts/mqtt.py
+    python3 ~/klipper_moonraker_mqtt_plugin/scripts/mqtt.py
     ```
 
 
@@ -144,7 +144,7 @@
     # bits.
     #
     # By default this script does nothing.
-    python ~/klipper_moonraker_mqtt_plugin/scripts/mqtt.py
+    python3 ~/klipper_moonraker_mqtt_plugin/scripts/mqtt.py
     exit 0
     ```
 11. 然后 `Ctrl + O` 回车保存, `Ctrl + X` 退出编辑.
