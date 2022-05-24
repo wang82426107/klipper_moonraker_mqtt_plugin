@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://gitee.com/676758285/klipper_moonraker_mqtt_plugin/blob/master">
-    <img src="https://gitee.com/676758285/klipper_moonraker_mqtt_plugin/blob/master/img/LOGO.png" alt="Logo" width="158,5" height="116.6">
+    <img src="https://gitee.com/676758285/klipper_moonraker_mqtt_plugin/raw/master/img/LOGO.png" alt="Logo" width="158,5" height="116.6">
   </a>
 
   <h3 align="center">Klipper-Moonraker-MQTT-plugin</h3>
