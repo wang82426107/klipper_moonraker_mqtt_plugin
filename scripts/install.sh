@@ -12,18 +12,18 @@
             pip3 install paho-mqtt
             pip3 install requests
             pip3 install ConfigParser           
-            cp -i ~/Klipper_Moonracker_MQTT_plugin/scripts/Klipper_Moonraker_mqtt.cfg ~/klipper_config
+            cp -i ~/klipper_moonraker_mqtt_plugin/scripts/Klipper_Moonraker_mqtt.cfg ~/klipper_config
             echo "========= Installing the Subsystem successful ========="
             exit
            elif [ "$opt" = "CN" ]; then
             echo "========= Klipper_Moonracker_MQTT_plugin - 初始化脚本 ==========="
             echo "========= 导入 Klipper_Moonracker_MQTT_plugin ========="
             echo "========= 导入 依赖包 ========="
-            python3 ~/Klipper_Moonracker_MQTT_plugin/scripts/get-pip.py
+            python3 ~/klipper_moonraker_mqtt_plugin/scripts/get-pip.py
             pip3 install paho-mqtt
             pip3 install requests
             pip3 install ConfigParser
-            cp -i ~/Klipper_Moonracker_MQTT_plugin/scripts/Klipper_Moonraker_mqtt.cfg ~/klipper_config
+            cp -i ~/klipper_moonraker_mqtt_plugin/scripts/Klipper_Moonraker_mqtt.cfg ~/klipper_config
             echo "========= 加载完成 ========="
             exit
            elif [ "$opt" = "Quit" ]; then
