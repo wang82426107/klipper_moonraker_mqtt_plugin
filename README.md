@@ -39,7 +39,7 @@
     </li>
     <li><a href="#使用示例">使用示例</a></li>
     <li><a href="#联系我">联系我</a></li>
-    <li><a href="#>原作者">原作者/a></li>
+    <li><a href="#>原作者">原作者</a></li>
   </ol>
 </details>
 
