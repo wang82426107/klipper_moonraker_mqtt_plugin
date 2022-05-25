@@ -39,7 +39,7 @@
     </li>
     <li><a href="#使用示例">使用示例</a></li>
     <li><a href="#联系我">联系我</a></li>
-
+    <li><a href="#>原作者">原作者/a></li>
   </ol>
 </details>
 
@@ -179,5 +179,9 @@
 如果有问题,可以联系邮箱 676758285@qq.com 或者 加 QQ 676758285.
 
 
+## 原作者
 
+这个plugin原作者github地址: https://github.com/SuperKohl/Moonraker-MQTT-plugin
+
+<br>
 ### End
