@@ -5,9 +5,13 @@ import requests
 import json
 from configparser import ConfigParser
 import paho.mqtt.client as paho
+import os
+
+home_path = os.path.dirname(os.path.realpath("~"))
+
 #cfg
 cfgfile = ConfigParser()
-cfgfile.read("~/klipper_config/Klipper_Moonraker_mqtt.cfg")
+cfgfile.read(home_path + "/klipper_config/Klipper_Moonraker_mqtt.cfg")
 #var
 broker = (cfgfile.get("Broker", "IP"))
 topic = (cfgfile.get("MQTT-Config", "topic"))
