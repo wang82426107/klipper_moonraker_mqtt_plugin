@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/wang82426107/klipper_moonraker_mqtt_plugin/blob/master">
+  <a href="https://github.com/wang82426107/klipper_moonraker_mqtt_plugin">
     <img src="https://github.com/wang82426107/klipper_moonraker_mqtt_plugin/blob/master/img/LOGO.png" alt="Logo" width="500" height="500">
   </a>
 
