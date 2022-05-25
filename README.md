@@ -99,7 +99,7 @@
     [update_manager client Klipper-Moonraker-MQTT-plugin]
     type: git_repo
     path: ~/klipper_moonraker_mqtt_plugin
-    origin: https://gitee.com/676758285/klipper_moonraker_mqtt_plugin.git
+    origin: https://github.com/wang82426107/klipper_moonraker_mqtt_plugin.git
     ```
 
 6. 添加完成上面信息之后,保存并且重启Klipper.
