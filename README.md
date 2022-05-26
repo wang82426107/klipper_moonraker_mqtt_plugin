@@ -81,7 +81,7 @@
    ```
 3. 下载源码
     ```sh
-   git clone https://gitee.com/676758285/klipper_moonraker_mqtt_plugin.git
+   git clone https://github.com/wang82426107/klipper_moonraker_mqtt_plugin.git
    ```
 4. 直接运行编译源码中的注入脚本 `install.sh`
 	```sh
