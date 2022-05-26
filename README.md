@@ -13,9 +13,9 @@
     <a href="https://space.bilibili.com/123363171?spm_id_from=333.337.0.0"><strong>骚栋个人B站主页 »</strong></a>
     <br />
     <br />
-    <a href="https://gitee.com/676758285/klipper_moonraker_mqtt_plugin/issues">提Bug</a>
+    <a href="https://github.com/wang82426107/klipper_moonraker_mqtt_plugin/issues">提Bug</a>
     ·
-    <a href="https://gitee.com/676758285/klipper_moonraker_mqtt_plugin/issues">提需求</a>
+    <a href="https://github.com/wang82426107/klipper_moonraker_mqtt_plugin/issues">提需求</a>
   </p>
 </p>
 
