@@ -113,6 +113,8 @@
     #Password = password
 
     [MQTT-Config]
+    # 0: don't Open MQTT 1: open MQTT
+    isOpen = 0 
     client_id = moonraker_MQTT
     topic = moonraker
     refresh_time = 5
