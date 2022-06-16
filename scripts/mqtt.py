@@ -20,7 +20,10 @@ username = (cfgfile.get("Broker", "Username"))
 password = (cfgfile.get("Broker", "Password"))
 refresh_time = (cfgfile.get("MQTT-Config", "refresh_time"))
 port = (cfgfile.get("Broker", "Port"))
+isOpen = (cfgfile.get("MQTT-Config", "isOpen"))
 
+if int(isOpen) == 0 :
+    exit(0)
 
 def on_message(client, userdata, message):
     time.sleep(1)
